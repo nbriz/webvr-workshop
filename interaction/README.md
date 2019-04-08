@@ -4,12 +4,20 @@
 
 In this next example we'll construct a scene with 4 spheres, each will be textured with a different 360 image. These spheres will serve as "buttons" or "triggers" to change our `<a-sky>` to a different 360 image. Let's create 4 spheres each with a different image, but rather than specifying the path directly in the **material** attribute/component like we did before, this time we'll use the asset management system to keep things a bit more efficient.
 
+Start by downloading the following images into your images folder and then copy+paste the code below into your `index.html` page:
+- [beach.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/beach.jpg)
+- [elephant.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/elephant.jpg)
+- [mountain.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/mountain.jpg)
+
+- [space.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/space.jpg)
+- [venic.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/venice.jpg)
+
 ```HTML
 <a-scene>
 
   <a-assets>
-    <img id="beach" src="images/bg.jpg">
-    <img id="mountain" src="images/mountain2.jpg">
+    <img id="beach" src="images/beach.jpg">
+    <img id="mountain" src="images/mountain.jpg">
     <img id="venice" src="images/venice.jpg">
     <img id="elephant" src="images/elephant.jpg">
     <img id="space" src="images/space.jpg">
