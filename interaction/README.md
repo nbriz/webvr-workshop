@@ -8,7 +8,6 @@ Start by downloading the following images into your images folder and then copy+
 - [beach.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/beach.jpg)
 - [elephant.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/elephant.jpg)
 - [mountain.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/mountain.jpg)
-
 - [space.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/space.jpg)
 - [venic.jpg](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/interaction/360image-gallery-gaze/images/venice.jpg)
 
