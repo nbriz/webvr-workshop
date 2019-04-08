@@ -82,5 +82,5 @@ Time permitting, we'll be covering the following concepts in A-Frame:
 #### [Teleporting](teleporting) (a common mechanic in VR)
 ![teleporting screenshot](teleporting/screenshot.png)
 
-#### [Basic Physics](physics)(common in games)
+#### [Basic Physics](physics) (common in games)
 ![physics screenshot](physics/screenshot.png)

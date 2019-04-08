@@ -30,4 +30,4 @@ Then all you need to do to add physics to your scene is `<a-scene physics>`. The
 
 There's loads more you can do with this physics component, I suggest checking out their [documentation](https://github.com/donmccurdy/aframe-physics-system).
 
-At this point we've played around with a few community developed components and you might be wondering how to create your own? You can read more about that in the A-Frame docs under [Writing a Component](https://aframe.io/docs/0.9.0/introduction/writing-a-component.html). You can also check out my simple example for a [bounce](components/bouncd.js) component written for the physics demo I made in [index.html] of this directory.
+At this point we've played around with a few community developed components and you might be wondering how to create your own? You can read more about that in the A-Frame docs under [Writing a Component](https://aframe.io/docs/0.9.0/introduction/writing-a-component.html). You can also check out my simple example for a [bounce](components/bounce.js) component written for the physics demo I made in [index.html] of this directory.
