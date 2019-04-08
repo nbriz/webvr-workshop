@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Space Race! </title>
+    <meta name="author" content="Nick Briz">
+    <meta name="description" content="My cool WebVR Demo!">
+
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+
+  </head>
+  <body>
+
+    <a-scene>
+
+      <!--
+        All models are published under a CC-BY license.
+
+        Rocketship model by Google Poly
+        visit: https://poly.google.com/view/8iKIYCyvh2k
+
+        Moon model by Google Poly
+        visit: https://poly.google.com/view/9OPocAqXM0u
+
+        Satellite model by Google Poly
+        visit: https://poly.google.com/view/fmYHY1leH_P
+
+        Alien model by Google Poly
+        visit: https://poly.google.com/view/3SD07SGSMNy
+      -->
+      <a-assets>
+        <img id="stars" src="images/stars.png">
+        <a-asset-item id="rocket-gltf" src="models/gltf/rocket/PUSHILIN_rocket_ship.gltf"></a-asset-item>
+        <a-asset-item id="moon-gltf" src="models/gltf/moon/1226 Moon.gltf"></a-asset-item>
+        <a-asset-item id="satellite-gltf" src="models/gltf/satellite/1236 Satellite.gltf"></a-asset-item>
+        <a-asset-item id="alien-gltf" src="models/gltf/alien/Alien_01.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-sky src="#stars"></a-sky>
+
+      <a-entity id="moon"
+        gltf-model="#moon-gltf"
+        scale="0.01 0.01 0.01"
+        position="0 1.221 -0.89534"></a-entity>
+
+      <a-entity id="alien"
+        gltf-model="#alien-gltf"
+        scale="0.03 0.03 0.03"
+        position="0 1.415 -0.89534"></a-entity>
+
+      <a-entity id="satellite"
+        position="0 0.310 -0.89534"
+        animation="property: rotation;
+                   to: 0 360 0;
+                   dur: 15000;
+                   easing: linear;
+                   loop: true;">
+        <a-entity gltf-model="#satellite-gltf"
+          scale="0.001 0.001 0.001"
+          position="-0.62719 1.32019 -0.017"></a-entity>
+      </a-entity>
+
+      <a-entity id="rocket"
+        position="0 1.593 -0.880"
+        animation="property: rotation;
+                   to: -360 0 0;
+                   dur: 5000;
+                   easing: linear;
+                   loop: true;">
+        <a-entity scale="0.1 0.1 0.1" position="0 0 0.556">
+          <a-entity gltf-model="#rocket-gltf"></a-entity>
+
+          <a-entity position="0 -0.69983 -0.17902"
+            scale="1 1 1"
+            geometry="primitive: sphere; radius: 0.3; segmentsHeight: 6; segmentsWidth: 11"
+            material="color: #FFFFFF; flatShading: true"
+            animation__p="property: position;
+                       to: 0 -1.4072 -0.17902;
+                       dur: 250;
+                       easing: linear;
+                       loop: true;"
+            animation__s="property: scale;
+                       to: 1.5 1.5 1.5;
+                       dur: 250;
+                       easing: linear;
+                       loop: true;"
+             animation__c="property: material.color;
+                        to: #333333;
+                        dur: 250;
+                        easing: linear;
+                        loop: true;"></a-entity>
+
+          <a-entity position="0 -0.69983 -0.17902"
+            scale="1 1 1"
+            geometry="primitive: sphere; radius: 0.3; segmentsHeight: 6; segmentsWidth: 11"
+            material="color: #FFFFFF; flatShading: true"
+            animation__p="property: position;
+                       to: 0.5 -1.4072 -0.17902;
+                       dur: 350;
+                       easing: linear;
+                       loop: true;"
+            animation__s="property: scale;
+                       to: 1.25 1.25 1.25;
+                       dur: 350;
+                       easing: linear;
+                       loop: true;"
+             animation__c="property: material.color;
+                        to: #333333;
+                        dur: 350;
+                        easing: linear;
+                        loop: true;"></a-entity>
+
+          <a-entity position="0 -0.69983 -0.17902"
+            scale="1 1 1"
+            geometry="primitive: sphere; radius: 0.3; segmentsHeight: 6; segmentsWidth: 11"
+            material="color: #FFFFFF; flatShading: true"
+            animation__p="property: position;
+                       to: -0.5 -1.4072 -0.17902;
+                       dur: 200;
+                       easing: linear;
+                       loop: true;"
+            animation__s="property: scale;
+                       to: 1.25 1.25 1.25;
+                       dur: 200;
+                       easing: linear;
+                       loop: true;"
+             animation__c="property: material.color;
+                        to: #333333;
+                        dur: 200;
+                        easing: linear;
+                        loop: true;"></a-entity>
+        </a-entity>
+      </a-entity>
+
+    </a-scene>
+
+  </body>
+</html>

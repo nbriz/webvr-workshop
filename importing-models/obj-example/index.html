@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Happy Town </title>
+    <meta name="author" content="Nick Briz">
+    <meta name="description" content="My cool WebVR Demo!">
+
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+
+  </head>
+  <body>
+
+    <a-scene background="color: #90e4f4">
+
+      <!--
+        Happy Town model by Alex “SAFFY” Safayan
+        published under a CC-BY license. 
+        visit: https://poly.google.com/view/baRmeivEYFz
+      -->
+      <a-assets>
+        <a-asset-item id="town-obj" src="models/obj/town/Final.obj"></a-asset-item>
+        <a-asset-item id="town-mtl" src="models/obj/town/Final.mtl"></a-asset-item>
+      </a-assets>
+
+      <a-entity light="type: ambient; color: #BBB"></a-entity>
+
+      <a-entity light="type: hemisphere; color: #7878db; groundColor: #129f12; intensity: 1.2"></a-entity>
+
+      <a-entity id="happy-town"
+        obj-model="obj: #town-obj; mtl: #town-mtl"
+        position="-0.12528 1.07035 -0.75"
+        rotation="0 87.60696574888826"
+        scale="0.15 0.15 0.15"></a-entity>
+
+    </a-scene>
+
+  </body>
+</html>

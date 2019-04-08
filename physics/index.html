@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Beach Balls </title>
+    <meta name="author" content="Nick Briz">
+    <meta name="description" content="My cool WebVR Demo!">
+
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+    <script src="components/bounce.js"></script>
+
+  </head>
+  <body>
+
+    <a-scene physics>
+
+      <!--
+        All models are published under a CC-BY license.
+
+        Empty Islandby Cheryl Fong
+        visit: https://poly.google.com/view/f-xl-C5VBuo
+
+        Palm Tree 01 by Jarlan Perez
+        visit: https://poly.google.com/view/3Z-j3UC5jPe
+
+        Palm Tree 02 by Jarlan Perez
+        visit: https://poly.google.com/view/aa6owopxwu5
+      -->
+      <a-assets>
+        <a-asset-item id="island-gltf" src="models/gltf/island/model.gltf"></a-asset-item>
+        <a-asset-item id="palm-tree1-gltf" src="models/gltf/tree1/model.gltf"></a-asset-item>
+        <a-asset-item id="palm-tree2-gltf" src="models/gltf/tree2/model.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-sky radius="50" src="images/sky.jpg"></a-sky>
+
+      <a-ocean width="100" depth="100" density="50" position="0 -0.615 0"></a-ocean>
+
+      <a-entity id="island"
+        gltf-model="#island-gltf"
+        position="-0.86399 -6.199 -1.42188"
+        scale="12 4 12"
+        static-body></a-entity>
+
+      <a-entity id="tree1"
+        gltf-model="#palm-tree1-gltf"
+        position="1 -9.17 -11.60739"
+        scale="10 10 10"
+        static-body></a-entity>
+
+      <a-entity id="tree2"
+        gltf-model="#palm-tree2-gltf"
+        position="-5.91498 -9.17 -6.0525"
+        rotation="0 10 0"
+        scale="10 10 10"
+        position="1 -9.54934 -7.81366"
+        static-body></a-entity>
+
+
+      <a-entity class="ball"
+        position="0 1 -1.45"
+        geometry="primitive: sphere; radius: 0.2"
+        material="color: #ed4e80;"
+        dynamic-body
+        bounce="on: click; amount: 25"
+        ></a-entity>
+
+      <a-entity class="ball"
+        position="1 1 -1.2"
+        geometry="primitive: sphere; radius: 0.2"
+        material="color: #4ec0ed;"
+        dynamic-body
+        bounce="on: click; amount: 25"
+        ></a-entity>
+
+      <a-entity class="ball"
+        position="0.5 1 -1.4"
+        geometry="primitive: sphere; radius: 0.2"
+        material="color: #4eeda8;"
+        dynamic-body
+        bounce="on: click; amount: 25"
+        ></a-entity>
+
+
+      <a-entity laser-controls raycaster="objects: .ball"></a-entity>
+
+    </a-scene>
+
+  </body>
+</html>

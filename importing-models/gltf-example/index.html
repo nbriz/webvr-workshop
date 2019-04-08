@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Rocket Ship </title>
+    <meta name="author" content="Nick Briz">
+    <meta name="description" content="My cool WebVR Demo!">
+
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+
+  </head>
+  <body>
+
+    <a-scene>
+
+      <!--
+        Rocketship model by Google Poly
+        published under a CC-BY license.
+        visit: https://poly.google.com/view/8iKIYCyvh2k
+      -->
+      <a-assets>
+        <img id="stars" src="images/stars.png">
+        <a-asset-item id="rocket-gltf" src="models/gltf/rocket/PUSHILIN_rocket_ship.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-sky src="#stars"></a-sky>
+
+      <a-entity id="rocket"
+        position="0 1.8 -3"
+        gltf-model="#rocket-gltf"></a-entity>
+
+    </a-scene>
+
+  </body>
+</html>

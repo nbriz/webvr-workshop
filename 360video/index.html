@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> 360 Video Example </title>
+    <meta name="author" content="Nick Briz">
+    <meta name="description" content="My cool WebVR Demo!">
+
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+
+  </head>
+  <body>
+
+
+    <a-scene>
+
+      <a-assets>
+        <video id="city" autoplay loop="true" src="videos/city.mp4"></video>
+      </a-assets>
+
+        <a-videosphere src="#city"></a-videosphere>
+
+    </a-scene>
+
+  </body>
+</html>

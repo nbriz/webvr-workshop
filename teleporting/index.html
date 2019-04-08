@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Teleportation! </title>
+    <meta name="author" content="Nick Briz">
+    <meta name="description" content="My cool WebVR Demo!">
+
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+
+  </head>
+  <body>
+
+    <a-scene>
+
+        <a-entity environment="preset: forest"></a-entity>
+
+        <a-entity id="cameraRig">
+          <a-entity camera look-controls position="0 1.7 0"></a-entity>
+          <a-entity teleport-controls="cameraRig: #cameraRig" daydream-controls></a-entity>
+        </a-entity>
+
+    </a-scene>
+
+  </body>
+</html>
