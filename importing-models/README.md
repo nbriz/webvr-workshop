@@ -84,4 +84,4 @@ Though OBJ files might be more common, GLTF files work better on the web with A-
 </a-scene>
 ```
 
-Check out [gltf-exmaple/index.html](ltf-exmaple/index.html) for the finished example
+Check out [gltf-exmaple/index.html](gltf-exmaple/index.html) for the finished example
