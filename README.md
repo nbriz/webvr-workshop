@@ -17,6 +17,10 @@ As exciting as it all is, I would be remiss if I didn't mention some of the dang
 
 The sections linked below are high-level recaps of all the things we're going to cover in this workshop. I've tried to summarize all of the main points here for reference, but you should not consider this a substitute for your own notes. I recommend taking lots of notes! We'll be using the [A-Frame](https://aframe.io/) library to create WebVR experiences, so after completing this workshop visiting the [A-Frame Docs](https://aframe.io/docs/0.9.0/introduction/) is a great way to continue learning. We'll also be using a few community developed components (additional libraries), to explore other community developed components check out [A-Frame Registry](https://aframe.io/aframe-registry/)
 
+[![Aframe](https://cloud.githubusercontent.com/assets/674727/25392020/6f011d10-298c-11e7-845e-c3c5baebd14d.jpg)](https://aframe.io/)
+
+Keep in mind, the idea behind this workshop is to learn to code our own VR experience from scratch but there are plenty of other creative uses for VR, for example lots of artists are starting to create VR "drawings" using VR apps like [Google Tilt Brush](https://www.tiltbrush.com/) or [Mozilla's A-Painter](https://aframe.io/a-painter/) (itself built with A-Frame). You can also use VR apps to create 3D models using apps like [Google Blocks](https://vr.google.com/blocks/) or [Supercraft](https://supermedium.com/supercraft/) which might be a more natural way to model 3D objects than doing it with a mouse on a screen. There are even VR apps for creating frame by frame animations like [Norman](https://www.creativeapplications.net/js/norman-webvr-tool-to-create-frame-by-frame-animations-in-3d/). So while we'll be approaching VR as a medium itself in this workshop, you might also consider VR as a tool for making other kinds of work.
+
 ## HTML Code
 
 We're are going to be writing [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) code or "Hypertext Markup Language." If you're familiar with HTML great! If not, then this workshop will also serve as an introduction to the basic syntax/style of HTML (albeit an unconventional one, as most "intros to HTML" start with basic examples like text and not VR). If it's been a while since you've written HTML here's a quick recap.
@@ -43,13 +47,21 @@ Inside the opening tag (between the `<tag` and the `>`) you can include **attrib
 
 #### Setting up a project
 
-Every/any code-based project should always be contained in a folder, so the first thing you always need to do is create a folder (aka a "directory"). In that folder you'll create a file called `index.html` this will be our main file and our starting point. A couple of important rules when naming files and folders are:
+![setup](setup.gif)
+
+Every/any code-based project should always be contained in a folder, so the first thing you always need to do is create a folder (aka a "directory"), I called mine "webvr". Open that folder in Atom by either dragging the folder onto the Atom icon, or open Atom and then in the menu click File > Add Project Folder...
+
+Once the folder is open in Atom, right mouse click the folder icon and choose New File, then name it `index.html` this will be our main file and our starting point. A couple of important rules when naming files and folders are:
 - **avoid spaces!** While technically you can have spaces in folder/filenames, you want to avoid this because it can cause confusion when writing code. If you really need a space use a `-` or `_` instead
 - **keep it all lowercase!** Similarly to avoid confusion when coding and writing filepaths it's best to keep things consistently lowercase (avoid capital letters).
 
-Open your `index.html` file in Atom and then write something like `Hello There!` Now open your `index.html` page in Firefox to see the result in the browser. From here on out you'll be making **changes** to your file in Atom, then **saving** those changes, then **refreshing** your browser to see the results.
+While in Atom, write something like `Hello There!` in your index page. Now open your `index.html` page in Firefox to see the result in the browser. From here on out you'll be making **changes** to your file in Atom, then **saving** those changes, then **refreshing** your browser to see the results.
 
-**NOTE:** while many of the examples we'll cover can be viewed simply by opening your `index.html` page in a browser directly. Some of the examples reference media assets like images and videos which (because of browser security reasons) can only be requested through a "web server." To run a web server on your computer:
+#### Running a local server
+
+![server](server.gif)
+
+While many of the examples we'll cover can be viewed simply by opening your `index.html` page in a browser directly. Some of the examples reference media assets like images and videos which (because of browser security reasons) can only be requested through a "web server." To run a web server on your computer:
 
 - open a terminal (search for "Terminal" in spotlight)
 - then type `cd ` (with a space after it) and then drag and drop the folder you just created for your project into the terminal
