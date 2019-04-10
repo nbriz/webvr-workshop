@@ -76,23 +76,23 @@ With that we're ready to start coding some VR! Jump to the [Intro Notes](intro) 
 
 Time permitting, we'll be covering the following concepts in A-Frame:
 
-#### [Basic Introduction](intro/README.md) to the library and how it works.
+#### [Basic Introduction](https://github.com/nbriz/webvr-workshop/tree/master/intro) to the library and how it works.
 [![intro screenshot](intro/screenshot.png)](intro)
 
-#### [360 Video](360video/README.md) and managing media assets
+#### [360 Video](https://github.com/nbriz/webvr-workshop/tree/master/360video) and managing media assets
 [![360 video screenshot](360video/screenshot.png)](360video)
 
-#### Controller and Gaze based [Interactions](interaction/README.md)
+#### Controller and Gaze based [Interactions](https://github.com/nbriz/webvr-workshop/tree/master/interaction)
 [![interaction screenshot](interaction/screenshot.png)](interaction)
 
-#### [Importing Models](importing-models/README.md), like OBJ and GLTF files.
+#### [Importing Models](https://github.com/nbriz/webvr-workshop/tree/master/importing-models), like OBJ and GLTF files.
 [![importing-models screenshot](importing-models/screenshot-obj.png)](importing-models)
 
-#### [Animation](animation/README.md)
+#### [Animation](https://github.com/nbriz/webvr-workshop/tree/master/animation)
 [![animation screenshot](animation/screenshot.png)](animation)
 
-#### [Teleporting](teleporting/README.md) (a common mechanic in VR)
+#### [Teleporting](https://github.com/nbriz/webvr-workshop/tree/master/teleporting) (a common mechanic in VR)
 [![teleporting screenshot](teleporting/screenshot.png)](teleporting)
 
-#### [Basic Physics](physics/README.md) (common in games)
+#### [Basic Physics](https://github.com/nbriz/webvr-workshop/tree/master/physics) (common in games)
 [![physics screenshot](physics/screenshot.png)](physics)
