@@ -83,7 +83,7 @@ Time permitting, we'll be covering the following concepts in A-Frame:
 [![360 video screenshot](360video/screenshot.png)](360video)
 
 #### Controller and Gaze based [Interactions](https://github.com/nbriz/webvr-workshop/tree/master/interaction)
-[![interaction screenshot](interaction/screenshot.png)](interaction)
+[![interaction screenshot](interaction/screenshot.png)](interaction/360image-gallery-gaze)
 
 #### [Importing Models](https://github.com/nbriz/webvr-workshop/tree/master/importing-models), like OBJ and GLTF files.
 [![importing-models screenshot](importing-models/screenshot-obj.png)](importing-models)
