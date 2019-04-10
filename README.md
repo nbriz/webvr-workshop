@@ -76,23 +76,23 @@ With that we're ready to start coding some VR! Jump to the [Intro Notes](intro) 
 
 Time permitting, we'll be covering the following concepts in A-Frame:
 
-#### [Basic Introduction](intro) to the library and how it works.
+#### [Basic Introduction](intro/README.md) to the library and how it works.
 [![intro screenshot](intro/screenshot.png)](intro)
 
-#### [360 Video](360video) and managing media assets
+#### [360 Video](360video/README.md) and managing media assets
 [![360 video screenshot](360video/screenshot.png)](360video)
 
-#### Controller and Gaze based [Interactions](interaction)
+#### Controller and Gaze based [Interactions](interaction/README.md)
 [![interaction screenshot](interaction/screenshot.png)](interaction)
 
-#### [Importing Models](importing-models), like OBJ and GLTF files.
+#### [Importing Models](importing-models/README.md), like OBJ and GLTF files.
 [![importing-models screenshot](importing-models/screenshot-obj.png)](importing-models)
 
-#### [Animation](animation)
+#### [Animation](animation/README.md)
 [![animation screenshot](animation/screenshot.png)](animation)
 
-#### [Teleporting](teleporting) (a common mechanic in VR)
+#### [Teleporting](teleporting/README.md) (a common mechanic in VR)
 [![teleporting screenshot](teleporting/screenshot.png)](teleporting)
 
-#### [Basic Physics](physics) (common in games)
+#### [Basic Physics](physics/README.md) (common in games)
 [![physics screenshot](physics/screenshot.png)](physics)
