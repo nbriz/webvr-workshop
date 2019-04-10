@@ -84,4 +84,6 @@ Though OBJ files might be more common, GLTF files work better on the web with A-
 </a-scene>
 ```
 
+Mozilla has some notes for how to convert your files to GLTF format in their [GLTF workflow blog post](https://blog.mozvr.com/a-saturday-night-gltf-workflow/)
+
 Check out [gltf-example/index.html](gltf-example/index.html) for the finished example
