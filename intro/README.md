@@ -73,13 +73,13 @@ Here we can make edits to our entity's properties, but keep in mind these edits 
 
 ## 360 Images
 
-To create a 360 Image we essentially need to make a giant sphere that wraps around us with an image textured along the inside walls. A-Frame provides a special element for doing this called `<a-sky>` using the **src** attribute you can assign an image by specifying a file path to that image. Let's download this [panorama of the Milky Way](https://www.reddit.com/r/space/comments/3k4s3p/360degree_panorama_view_of_the_milky_way/) and save it as "space.jpg" into into a new folder within our project called "images." Because our index page is in the same folder as the images directory our src path will look like this:
+To create a 360 Image we essentially need to make a giant sphere that wraps around us with an image textured along the inside walls. A-Frame provides a special element for doing this called `<a-sky>` using the **src** attribute you can assign an image by specifying a file path to that image. Let's download this [panorama of the Milky Way](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/intro/images/space.jpg) and save it as "space.jpg" into into a new folder within our project called "images." Because our index page is in the same folder as the images directory our src path will look like this:
 
 ```html
   <a-sky src="images/space.jpg"></a-sky>
 ```
 
-You can apply images as textures to shapes by adjusting the material attribute/component like this `material="src: images/earth.jpg"`.
+You can apply images as textures to shapes by adjusting the material attribute/component like this `material="src: images/earth.jpg"`. Try applying this [borg texture](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/intro/images/borg.jpg) to the cube and this [earth texture](https://raw.githubusercontent.com/nbriz/webvr-workshop/master/intro/images/earth.jpg) to the sphere.
 
 ## The Finished Example
 
