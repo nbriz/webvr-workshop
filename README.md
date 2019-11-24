@@ -64,9 +64,9 @@ While in Atom, write something like `Hello There!` in your index page. Now open 
 While many of the examples we'll cover can be viewed simply by opening your `index.html` page in a browser directly. Some of the examples reference media assets like images and videos which (because of browser security reasons) can only be requested through a "web server." To run a web server on your computer:
 
 - open a terminal (search for "Terminal" in spotlight)
-- then type `cd ` (with a space after it) and then drag and drop the folder you just created for your project into the terminal
-- you should see the "path" to your folder appear in the terminal, click enter.
-- now that you'r in the folder enter: `python -m SimpleHTTPServer` (if that doesn't work try `python -m http.server`)
+- then type `cd ` (with a space after it) and then drag and drop the folder you just created for your project into the terminal.
+- you should see the "path" to your folder appear in the terminal (ex: `cd /path/to/folder`), click enter.
+- now that you're in the folder it's time to run a local server using python, enter: `python -m SimpleHTTPServer` that should work if you have python 2 installed on ur computer (Mac and Linux usually do by default). If that doesn't work, you might have python 3 installed, if that's the case try `python -m http.server`. **NOTE:** neither version of python come pre-installed on Windows, so if you are on a Windows machine you'll need to [install python](https://www.python.org/downloads/windows/) yourself first.
 - once the server is running open a browser and visit [http://localhost:8000](http://localhost:8000) and you should see your index page.
 
 
