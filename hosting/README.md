@@ -25,7 +25,7 @@ These instructions assume you've already got a web project (which means a folder
 
 # Step 1: create a new GitHub project
 
-If you haven't already, create a free account on [github](https://github.com/). Once you're signed in, create a new project (aka "repository") by click on the green "New" or "New Repository" button or simply go to [https://github.com/new](https://github.com/new). Once there you should see a page like this:
+If you haven't already, create a free account on [github](https://github.com/). Once you're signed in, create a new project (aka "repository") by clicking on the green "New" or "New Repository" button or simply go to [https://github.com/new](https://github.com/new). Once there you should see a page like this:
 
 ![new project](images/create-project.png)
 
