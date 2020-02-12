@@ -5,7 +5,7 @@
 Before we can write any A-Frame code in our `index.html` file of our project, we need to include the A-Frame library in our page:
 
 ```html
-<script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
 ```
 
 ## Creating a Scene
