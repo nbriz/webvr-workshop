@@ -27,13 +27,13 @@ We're are going to be writing [HTML](https://developer.mozilla.org/en-US/docs/We
 
 HTML is a kind of markup language. we use **html elements** in order to give our html page structure and organize our content. An element usually consists of a pair of **tags**, an opening tag has a `<` followed by characters that specify which tag it is, and then a `>`. the closing tag is the same except with `/` before the characters. Between the opening` <tag>` and the closing `</tag>` is where we place our content.
 
-![html element](http://netart.rocks/images/html1.png)
+![html element](https://netnet.studio/tutorials/orientation/images/html1.png)
 
 (*a list of HTML elements can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) if you're curious, but we'll be using an entirely different set of elements provided by the A-Frame library*)
 
 Inside the opening tag (between the `<tag` and the `>`) you can include **attributes**. Attributes are used to add extra information about that particular element. The first part of an attribute is the **attribute name**. It indicates what kind of extra information your going to add to that element. These names are specific, always lower case and followed by a `=` the second part of an attribute is the **attribute value**, this is the info or setting for this attribute, different elements can have different values, but they should always follow the `=` and be surrounded in `" "`
 
-![html attribute](http://netart.rocks/images/html2.png)
+![html attribute](https://netnet.studio/tutorials/orientation/images/html2.png)
 
 
 ## Project Setup
